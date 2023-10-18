@@ -1,0 +1,5 @@
+Mover o player para as 4 direções com a velocidade iniciada no create dele
+Mover ele usando as setas do teclado
+Ele deve ir na direção das setas
+Sempre que ele tocar em um bloco de morte a room reinicia
+Quando ele tocar no objeto vitória ele recebe uma mensagem de vitória.

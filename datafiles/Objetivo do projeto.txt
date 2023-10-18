@@ -1,0 +1,5 @@
+Eu quero girar o objeto com as setinhas do teclado (esquerda e direita)
+Quero que ele gire do centro da sprite
+Ele deve se mover quando eu apertar espaço
+Ele deve ir na direção que eu apontei ele
+Ele deve parar de se mover quando eu soltar espaço.

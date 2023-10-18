@@ -1,0 +1,12 @@
+O quadrado deve começar parado e girando em uma direção
+Depois de 4 segundos ele tem que se mover naquela direção
+Depois de 4 segundos ele para de se mover e volta a girar
+Ele vai alternando entre os dois estados, girando e movendo
+Ele vai girar com base na variável valor e de 4 em 4 segundos
+Sempre que ele parar ou se mover a variável valor vai pegar um
+número aleatório entre -2 e 2 para ele decidir em qual sentido girar
+Quando ele estiver girando ele deve ficar parado
+Quando ele estiver se movendo ele não deve girar
+Esse processo deve se repetir até ele sair da room
+Quando ele sair da room o jogo reinicia
+Não sei fazer o jogo reiniciar quando ele sair da room, boa sorte!

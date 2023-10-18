@@ -1,0 +1,6 @@
+Ele vai dar uma mensagem de bem vindo
+Depois informar a velocidade que ele vai se mover
+O usuário vai controlar o movimento usando as setas do teclado.
+Esquerda, direita, cima e baixo.
+Ele deve ir na direção da seta.
+Ele só deve se mover enquanto eu seguro a tecla.

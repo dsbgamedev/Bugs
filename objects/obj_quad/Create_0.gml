@@ -1,18 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//Sistema que checa se a pessoa é maior de idade
-idade = get_integer("Digite a sua idade", "");
+//Dando uma mensagem de bem vindo ao jogo
+show_message(bem vindo!);
+//Exibindo o valor da minha velocidade
+show_message(vel);
 
-//Checando se a pessoa é maior de idade
-if (idade < 18)
-{
-	show_message("você é adulto");
-}
-else
-{
-	show_message("você é criança");
-}
+//Criando a variável de velocidade
+vel = 5;
 
 
 

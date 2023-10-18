@@ -1,0 +1,5 @@
+Mudar a direção de onde a minha sprite esta olhando com as setas do teclado
+Esquerda gira para a esquerda e direita gira para a direita
+A cada 1 segundo criar um tiro
+O tiro deve se mover com 10 de velocidade
+Fazer o tiro ir na direção que eu estou olhando
