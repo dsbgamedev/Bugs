@@ -4,3 +4,15 @@ O usuário vai controlar o movimento usando as setas do teclado.
 Esquerda, direita, cima e baixo.
 Ele deve ir na direção da seta.
 Ele só deve se mover enquanto eu seguro a tecla.
+
+RESOLUÇÃO
+1 - Jogo não carrega porque não colocou aspas na string bem vindo
+2 - A variavel vel do objeto quad esta sendo usada antes de ser criada
+3 - Garanti que a criação da variavel vel foi feita antes de ela ser criada
+4 - Setinha da esquerda esta indo para direita
+5 - No evento setinha esquerda ele ta aumentando o valor do x
+6 - Ajustei para ele subtrair o valor do x ao apertar a setinha esquerda
+7 - Setinha para cima só move ele na hora que eu aperto ela.
+8 - Ele esta usando o evento Key press setinha para cima, ele só executa uma unica vez
+quando a tecla é pressionada.
+9 - Mudei o evento de Key press para Key Down, com a setinha para cima.
