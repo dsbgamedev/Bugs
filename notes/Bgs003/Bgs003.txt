@@ -3,3 +3,12 @@ Esquerda gira para a esquerda e direita gira para a direita
 A cada 1 segundo criar um tiro
 O tiro deve se mover com 10 de velocidade
 Fazer o tiro ir na direção que eu estou olhando
+
+RESOLUÇÃO
+1 - Layer "tiro" nao existe.
+2 - Foi corrigido criando a layer tiro.
+3 - Não esta criando o tiro.
+4 - Variavel de velocidade tiro estava recebendo um valor de speed que e minha velocidade 
+e como estou parado nao cria o tiro
+5 - Criei a variavel de vel no create com valor 10, e a variavel _tiro esta recebendo
+o valor de vel.
