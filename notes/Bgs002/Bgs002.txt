@@ -3,3 +3,12 @@ Quero que ele gire do centro da sprite
 Ele deve se mover quando eu apertar espaço
 Ele deve ir na direção que eu apontei ele
 Ele deve parar de se mover quando eu soltar espaço.
+
+RESOLUÇÃO
+1 - Seta left esta girando para a direita, foi feito a alteração subtraindo parar girar esquerda
+2 -A setinha para direita não esta funcionando.
+3 - A seta para direita esta com evento Key press Left, foi alterado para key downs rigth e
+a direção dele colocado como positivo.
+4 - O evento Key press Left o image angulo estava recebendo valor errado, foi alterado para receber o valor da direcao
+5 - Nao esta parando de se mover ao apertar espaço.
+6 - Estava com evento key press space, alterado para evento Key UP Space zerando a velocidade.

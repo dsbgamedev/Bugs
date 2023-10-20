@@ -3,8 +3,12 @@
 
 
 
+
 //Mudando a direção para a direita quando eu apertar para a esquerda
-image_angle += 2;
+direction -= 2;
+
+//Fazendo a sprite olhar para a minha direção
+image_angle = direction;
 
 
 
