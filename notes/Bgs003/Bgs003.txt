@@ -12,3 +12,8 @@ RESOLUÇÃO
 e como estou parado nao cria o tiro
 5 - Criei a variavel de vel no create com valor 10, e a variavel _tiro esta recebendo
 o valor de vel.
+6 - O tiro nao vai para a direção quem estou olhando
+7 - Estou passando a minha direção para o tiro, mas quem determina para onde
+eu estou olhando é o image_angle
+8 - Passei meu image_nagle como direção do tiro porque
+assim ele vai para direção do angulo que estou olhando

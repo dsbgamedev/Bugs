@@ -5,7 +5,7 @@
 var _tiro = instance_create_layer(x, y, "tiro", obj_tiro);
 
 //Fazendo o tiro ir para a direção que eu estou olhando
-_tiro.direction = direction;
+_tiro.direction = image_angle;
 
 //Dando a velocidade para o tiro
 _tiro.speed = vel;
