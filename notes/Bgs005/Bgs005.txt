@@ -3,3 +3,7 @@ Mover ele usando as setas do teclado
 Ele deve ir na direção das setas
 Sempre que ele tocar em um bloco de morte a room reinicia
 Quando ele tocar no objeto vitória ele recebe uma mensagem de vitória.
+
+RESOLUÇÃO
+1 - O jogo não carregava porque ele confundiue colocou um ponto no lugar o ponto e virgula
+2 - O jogo continua nao abrindo.

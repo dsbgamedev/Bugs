@@ -2,12 +2,14 @@
 // You can write your code in this editor
 
 
-
 //Se ele deve rodar ele fica parado e gira com base no valor
 if (rodar)
 {
 	//Ele gira com base no valor
-	image_angle += 2;
+	image_angle += valor;
+	
+	//Zerando a velocidade
+	speed = 0;
 }
 //Se ele não deve rodar
 else 
@@ -18,7 +20,6 @@ else
 	//Ele vai na direção que ele esta olhando
 	direction = image_angle;
 }
-
 
 
 

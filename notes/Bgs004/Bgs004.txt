@@ -10,3 +10,19 @@ Quando ele estiver se movendo ele não deve girar
 Esse processo deve se repetir até ele sair da room
 Quando ele sair da room o jogo reinicia
 Não sei fazer o jogo reiniciar quando ele sair da room, boa sorte!
+
+RESOLUÇÃO
+1 - ao iniciar objeto player não esta aparecendo na room.
+2 - Criei o evento draw e utilizei o draw_self() para desenhar o player
+3 - Ao sair da room ele nao reinicia o jogo
+5 - Criei um evento outside room emandei ele reinciar jogo
+6 - Quando começa se mover ele nao para mais
+	6.1 - Nao tinha um alarme para reiniciar dentro do evento alarme, foi
+	colocado o alarme para reiniciar ele.
+7 - Quando ele volta a girar ele nao fica parado.
+	7.1 - 
+8 - Esqueceu de zerar a velocidade quando ele gira.
+	8.1 -  No evento step quando verifica se ele esta roando, nao foi zerado 
+	o speed dele, apos zerar o speed ele começou a esperar 4 segundos.
+9 - Esqueceu de usar a variavel valor para girar o objeto.
+	9.1 - Inserido a variavel valor no image_angle do evento step.
